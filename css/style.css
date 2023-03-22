@@ -20,6 +20,7 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  border-bottom: 1px solid white;
 }
 
 
@@ -54,7 +55,6 @@ header img {
 aside figure img {
   width: 20rem;
   height: 20rem;
-  image-orientation:;
 }
 /* FOOTER */
 
