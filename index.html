@@ -4,22 +4,24 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Sancho's Page</title>
   </head>
   <body>
     <header>
-      <img src="/images/Logo.png" alt="Logo" width="250px" />
+      <img class="logo" src="/images/logo_black.png" alt="Logo" width="250px" />
       <nav>
-        <ul>
-          <li><a href="">About Me</a></li>
-          <li><a href="">Projects</a></li>
-          <li><a href="">Contact</a></li>
+        <ul class="first-nav">
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#resume">Resume</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
-        <h1>About Me</h1>
+      <section class="about" aria-label="about me section">
+        <h2>About Me</h2>
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis
           quas placeat explicabo tenetur asperiores, mollitia ratione voluptates
@@ -28,13 +30,18 @@
         </p>
         <aside>
           <figure>
-            <img src="images/Foto-Perfil-desenho.jpeg" alt="Author Image" />
+            <img src="images/perfil_3.jpg" alt="Author Image" />
           </figure>
         </aside>
       </section>
       <section>
         <h2>Projects</h2>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
+          quibusdam earum modi, architecto laudantium magnam?
+        </p>
       </section>
+      <br />
     </main>
     <hr />
     <footer>
@@ -42,15 +49,19 @@
         <ul>
           <li>
             <a href="https://www.instagram.com/sanchopedro/?next=%2F"
-              >Instagram</a
-            >
+              ><img src="images/instagram.svg" alt=""
+            /></a>
           </li>
           <li>
             <a href="https://www.linkedin.com/in/pedrosanchorodrigues/"
-              >Linkedin</a
-            >
+              ><img src="images/linkedin.svg" alt=""
+            /></a>
           </li>
-          <li><a href="https://github.com/sanchopedro">Github</a></li>
+          <li>
+            <a href="https://github.com/sanchopedro"
+              ><img src="images/github.svg" alt=""
+            /></a>
+          </li>
         </ul>
       </nav>
     </footer>
