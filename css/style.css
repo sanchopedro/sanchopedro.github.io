@@ -23,7 +23,6 @@ header {
   border-bottom: 1px solid white;
 }
 
-
 header .first-nav {
   display: flex;
   gap: 80px;
@@ -35,12 +34,13 @@ header nav a {
   color: #ffffff;
 }
 
+/* Logo */
+
 header img {
   align-items: left;
 }
 
 /* MAIN */
-
 
 .about {
   align-self: start;
@@ -56,16 +56,15 @@ aside figure img {
   width: 20rem;
   height: 20rem;
 }
+
 /* FOOTER */
 
 footer {
   background-color: #1e2022;
 }
 
-footer nav ul li a img {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: space-around;
-  width: 2rem;
+footer section a {
+  display: inline-flex;
+
+
 }
