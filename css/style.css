@@ -7,6 +7,7 @@
   list-style: none;
   text-decoration: none;
 }
+
 body {
   max-width: 2080px;
   margin: 0 auto;
@@ -15,14 +16,12 @@ body {
 /* HEADER */
 
 header {
-  background-color: #1e2022;
   padding: 10px;
   display: flex;
   align-items: center;
   justify-content: space-around;
   border-bottom: 1px solid white;
 }
-
 
 header .first-nav {
   display: flex;
@@ -35,13 +34,15 @@ header nav a {
   color: #ffffff;
 }
 
+/* LOGO */
+
 header img {
   align-items: left;
 }
 
 /* MAIN */
 
-
+/* about */
 .about {
   align-self: start;
   display: grid;
@@ -52,20 +53,38 @@ header img {
   padding: 60px;
 }
 
-aside figure img {
-  width: 20rem;
-  height: 20rem;
+.about h2 {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
 }
+
+.perfil {
+  width: 25rem;
+  height: 30rem;
+}
+
+/* Projects */
+
+.projects h2 {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+}
+
+/* Resume */
+
+.resume h2 {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+}
+
 /* FOOTER */
 
-footer {
-  background-color: #1e2022;
+.contact h2 {
+  text-decoration: underline;
+  text-decoration-color: #4ee1a0;
+  border-top: 1px solid white;
 }
 
-footer nav ul li a img {
-  display: flex;
-  gap: 10px;
-  align-items: center;
-  justify-content: space-around;
-  width: 2rem;
+.social-media {
+  padding: 5px;
 }
