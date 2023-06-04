@@ -1,11 +1,13 @@
-import Education from '../Education/Education';
+// import Education from '../Education/Education';
+import Resume from '../Resume/Resume';
 import './App.scss';
 
 
 function App() {
   return (
     <div className="App">
-      <Education/>
+      <Resume/>
+
     </div>
   );
 }

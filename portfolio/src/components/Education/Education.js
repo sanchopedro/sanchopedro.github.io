@@ -1,5 +1,5 @@
 import React from "react";
-import { education } from "./../../assets/docs/resume";
+import { education } from "./../../assets/docs/curriculum";
 
 function Education() {
   return (
