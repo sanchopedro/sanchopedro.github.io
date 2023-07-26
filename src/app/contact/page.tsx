@@ -19,7 +19,7 @@ function contact() {
               <ContactInfo />
             </div>
             <div className="col-span-3 w-full">
-              <p className="text-gray-200 text-sm md:text-base lg:text-justify ">
+              <p className="text-gray-200 text-sm md:text-base text-center lg:text-justify ">
                 If you have any suggestion, project or even you want to say
                 Hello.. Please fill out the form below and I will reply you
                 shortly.
