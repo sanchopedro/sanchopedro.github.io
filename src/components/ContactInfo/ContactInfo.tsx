@@ -3,11 +3,13 @@ import Image from "next/image";
 
 function ContactInfo() {
   return (
-    <div className="container max-w-lg mx-auto px-4 mt-5">
-      <ul className="space-y-10">
+    <div className="container max-w-lg mx-auto px-4 py-4 mt-10">
+      <div className="flex flex-col items-center text-center lg:text-start">
+
+      <ul className="lg:space-y-10 space-y-4">
         <li>
           <h6 className="text-gray-400 font-semibold">Phone</h6>
-          <div className="flex space-x-2 mt-2 text-gray-50">
+          <div className="flex justify-center lg:justify-start  space-x-2 mt-2 text-gray-50">
             <Image
               src="/images/whatsapp.svg"
               alt="whatsapp logo"
@@ -19,7 +21,7 @@ function ContactInfo() {
         </li>
         <li>
           <h6 className="text-gray-400 font-semibold">Email</h6>
-          <div className="flex space-x-2 mt-2 text-gray-50">
+          <div className="flex justify-center lg:justify-start  space-x-2 mt-2 text-gray-50">
             <Image
               src="/images/icon-mail.svg"
               alt="Mail logo"
@@ -32,7 +34,7 @@ function ContactInfo() {
         </li>
         <li>
           <h6 className="text-gray-400 font-semibold">Social Profiles</h6>
-          <div className="flex space-x-4 mt-2 text-gray-50">
+          <div className="flex justify-center lg:justify-start  space-x-4 mt-2 text-gray-50 ">
             <a href="https://github.com/sanchopedro" target="_blank">
               <Image
                 src="/images/icon-github.svg"
@@ -63,6 +65,7 @@ function ContactInfo() {
           </div>
         </li>
       </ul>
+      </div>
     </div>
   );
 }
