@@ -13,22 +13,18 @@ function contact() {
         subtitle="I am always open to discussing product design work or partnerships."
       />
 
-
-        <div className="lg:grid lg:grid-cols-5 lg:gap-2 space-y-8 lg:space-y-2">
-            <div className="shrink col-span-2 text-start ">
-              <ContactInfo />
-            </div>
-            <div className="col-span-3 w-full">
-              <p className="text-gray-200 text-sm md:text-base text-center lg:text-justify ">
-                If you have any suggestion, project or even you want to say
-                Hello.. Please fill out the form below and I will reply you
-                shortly.
-              </p>
-              <FormContact />
-            </div>
-
+      <div className="lg:grid lg:grid-cols-5 lg:gap-2 space-y-8 lg:space-y-2">
+        <div className="shrink col-span-2 text-start ">
+          <ContactInfo />
         </div>
-
+        <div className="col-span-3 w-full">
+          <p className="text-gray-200 text-sm md:text-base text-center lg:text-justify ">
+            If you have any suggestion, project or even you want to say Hello..
+            Please fill out the form below and I will reply you shortly.
+          </p>
+          <FormContact />
+        </div>
+      </div>
     </div>
   );
 }
