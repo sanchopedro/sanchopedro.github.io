@@ -160,8 +160,8 @@ function AboutPage() {
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic self-end">
-              "Sem dados, você é apenas mais uma pessoa com uma opinião." - W.
-              Edwards Deming
+              &quot;Sem dados, você é apenas mais uma pessoa com uma
+              opinião.&quot; - W. Edwards Deming
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end -mt-12">
@@ -436,7 +436,7 @@ function AboutPage() {
           {/* SECTION DOWNLOAD CV */}
           <div className="flex justify-center pb-32 text-white">
             <a
-              href="/Pedro-Sancho-Rodrigues-CV.pdf" 
+              href="/Pedro-Sancho-Rodrigues-CV.pdf"
               download
               className=" bg-black hover:bg-purple-200 rounded-full  font-semibold  p-4 flex items-center justify-center gap-2 px-6 py-2 transition duration-300 ease-in-out hover:text-gray-600"
             >
