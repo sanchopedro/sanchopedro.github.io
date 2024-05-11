@@ -45,7 +45,7 @@ function ContactPage() {
     >
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-6xl">
+        <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-4xl md:text-6xl">
           <div className="flex flex-col gap-8">
             <div className="text-center">
             {text.split("").map((letter, index) => (
@@ -65,7 +65,7 @@ function ContactPage() {
             😊
 
             </div>
-            <div className="text-xl text-center">
+            <div className=" text-sm md:text-xl text-center mb-4 lg:mb-0">
             <p>Se você tem alguma sugestão, projeto ou mesmo deseja dizer Olá... Preencha o formulário e responderei em breve.</p>
             </div>
           </div>
@@ -74,7 +74,7 @@ function ContactPage() {
         <form
           onSubmit={sendEmail}
           ref={form}
-          className="h-1/2 lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-xl flex flex-col gap-8 justify-center p-24"
+          className="h-full w-full lg:h-full lg:w-1/2 bg-red-50 rounded-xl text-sm md:text-xl flex flex-col gap-8 justify-center p-8 md:p-24"
         >
           <span>Olá Sancho Dev, </span>
           <textarea
