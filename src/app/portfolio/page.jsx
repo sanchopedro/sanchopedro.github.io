@@ -11,82 +11,34 @@ const items = [
   {
     id: 1,
     color: "from-red-300 to-blue-300",
+    title: "PROJETO IMDB REVIEWS",
+    desc: "O projeto busca criar um sistema para filtrar e categorizar resenhas de filmes clássicos, priorizando a identificação automática de resenhas negativas. A empresa está lançando uma nova comunidade para entusiastas de filmes clássicos, com o intuito de fornecer uma plataforma onde os membros possam encontrar resenhas confiáveis e relevantes facilmente. O objetivo é treinar um modelo capaz de classificar as resenhas como positivas ou negativas, com a meta de alcançar um valor F1 de pelo menos 0,85.",
+    img: "/film.png",
+    link: "https://github.com/sanchopedro/imdb-reviews",
+  },
+  {
+    id: 2,
+    color: "from-blue-300 to-violet-300",
     title: "PROJETO OILY GIANT",
     desc: "O principal objetivo deste projeto é identificar a região mais lucrativa para a perfuração de novos poços de petróleo, mantendo o risco de prejuízo abaixo de 2,5%. Com dados de exploração geológica para três regiões distintas será preciso usar modelos de regressão linear para prever o volume de reservas em cada poço. Com essas previsões, será possível selecionar as melhores oportunidades para maximizar o lucro total.",
     img: "/oil.png",
     link: "https://github.com/sanchopedro/oily-giant",
   },
   {
-    id: 2,
-    color: "from-blue-300 to-violet-300",
-    title: "Next.js Medium Blog",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18023772/pexels-photo-18023772/free-photo-of-close-up-of-a-person-holding-a-wristwatch.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
-  },
-  {
     id: 3,
     color: "from-violet-300 to-purple-300",
-    title: "Vanilla Book App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/6894528/pexels-photo-6894528.jpeg?auto=compress&cs=tinysrgb&w=1600&lazy=load",
-    link: "https://lama.dev",
+    title: "PROJETO RUSTY BARGAIN",
+    desc: "O objetivo do projeto Rusty Bargain é desenvolver um modelo de aprendizado de máquina para determinar o valor de mercado de carros usados, como parte do desenvolvimento de um aplicativo para oferecer aos usuários uma maneira rápida e precisa de avaliar o preço de seus veículos.",
+    img: "/bargain.png",
+    link: "https://github.com/sanchopedro/rusty-bargain",
   },
   {
     id: 4,
     color: "from-purple-300 to-red-300",
-    title: "Spotify Music App",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
-  },
-  {
-    id: 5,
-    color: "from-purple-300 to-red-300",
-    title: "teste 1",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
-  },
-  {
-    id: 6,
-    color: "from-purple-300 to-red-300",
-    title: "teste 2",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
-  },
-  {
-    id: 7,
-    color: "from-purple-300 to-red-300",
-    title: "teste 3",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
-  },
-  {
-    id: 8,
-    color: "from-purple-300 to-red-300",
-    title: "teste 4",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
-  },
-  {
-    id: 9,
-    color: "from-purple-300 to-red-300",
-    title: "test 5",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
-  },
-  {
-    id: 10,
-    color: "from-purple-300 to-red-300",
-    title: "test 6",
-    desc: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores ab id ad nesciunt quo aut corporis modi? Voluptate, quos sunt dolorum facilis, id eum sequi placeat accusantium saepe eos laborum.",
-    img: "https://images.pexels.com/photos/18540208/pexels-photo-18540208/free-photo-of-wood-landscape-water-hill.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
-    link: "https://lama.dev",
+    title: "PROJETO TAXI CORRIDA MALUCA",
+    desc: "O objetivo do projeto da empresa Taxi Corrida Maluca é aumentar a eficiência de seus serviços durante os horários de pico nos aeroportos, prevendo com precisão a quantidade de pedidos de táxi para a próxima hora. Isso ajudará a atrair mais motoristas durante os horários de maior demanda, melhorando o atendimento aos clientes.",
+    img: "/taxi.png",
+    link: "https://github.com/sanchopedro/taxi",
   },
 ];
 
@@ -117,13 +69,13 @@ const PortfolioPage = () => {
                   key={item.id}
                 >
                   <div className="flex flex-col gap-8  justify-center items-center">
-                    <h1 className="text-xl font-bold md:text-2xl lg:text-4xl xl:text-6xl text-white">
+                    <h1 className="text-xl font-bold md:text-xl lg:text-2xl xl:text-6xl text-white">
                       {item.title}
                     </h1>
-                    <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[500px] lg:h-[350px] xl:w-[600px] xl:h-[420px]">
+                    <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[400px] lg:h-[280px] xl:w-[550px] xl:h-[385px]">
                       <Image src={item.img} alt="" fill />
                     </div>
-                    <p className="w-80 md:w96 lg:w-[500px] lg:text-lg xl:w-[600px] text-black text-justify">
+                    <p className="w-80 md:w96 lg:w-[600px] lg:text-lg xl:w-[700px] text-black text-justify">
                       {item.desc}
                     </p>
                     <Link
@@ -131,7 +83,7 @@ const PortfolioPage = () => {
                       className="flex justify-center  text-white hover:text-gray-600"
                       target="_blank"
                     >
-                      <button className="md:text-md lg:p-6 lg:text-lg bg-black hover:bg-purple-200 rounded-full font-semibold p-4 flex items-center justify-center gap-2">
+                      <button className="md:text-md lg:p-4 lg:text-lg bg-black hover:bg-purple-200 rounded-full font-semibold p-2 flex items-center justify-center -mt-2">
                         <EyeIcon class="h-6 w-6" />
                         SEE PROJECT
                       </button>
