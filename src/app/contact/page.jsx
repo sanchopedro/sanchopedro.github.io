@@ -26,11 +26,11 @@ function ContactPage() {
         process.env.NEXT_PUBLIC_PUBLIC_KEY
       )
       .then(
-        (result) => {
+        () => {
           setSuccess(true);
           form.current.reset();
         },
-        (error) => {
+        () => {
           setError(true);
         }
       );
