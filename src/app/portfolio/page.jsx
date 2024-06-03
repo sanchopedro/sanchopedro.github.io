@@ -1,107 +1,105 @@
 "use client";
 
-import ScrollToTopButton from "@/components/ScrollToTopButton";
-import { motion, useScroll, useTransform } from "framer-motion";
+
+import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
-import { useRef } from "react";
 import { EyeIcon } from "@heroicons/react/24/outline";
 
 const items = [
   {
     id: 1,
-    color: "from-red-300 to-blue-300",
     title: "PROJETO IMDB REVIEWS",
     desc: "O projeto busca criar um sistema para filtrar e categorizar resenhas de filmes clássicos, priorizando a identificação automática de resenhas negativas. A empresa está lançando uma nova comunidade para entusiastas de filmes clássicos, com o intuito de fornecer uma plataforma onde os membros possam encontrar resenhas confiáveis e relevantes facilmente. O objetivo é treinar um modelo capaz de classificar as resenhas como positivas ou negativas, com a meta de alcançar um valor F1 de pelo menos 0,85.",
     img: "/film.png",
     link: "https://github.com/sanchopedro/imdb-reviews",
+    tech: ["Python", "NLP", "Scikit-learn", "Pandas"]
   },
   {
     id: 2,
-    color: "from-blue-300 to-violet-300",
     title: "PROJETO OILY GIANT",
     desc: "O principal objetivo deste projeto é identificar a região mais lucrativa para a perfuração de novos poços de petróleo, mantendo o risco de prejuízo abaixo de 2,5%. Com dados de exploração geológica para três regiões distintas será preciso usar modelos de regressão linear para prever o volume de reservas em cada poço. Com essas previsões, será possível selecionar as melhores oportunidades para maximizar o lucro total.",
     img: "/oil.png",
     link: "https://github.com/sanchopedro/oily-giant",
+    tech: ["Python", "Regression", "Scikit-learn", "Pandas"]
   },
   {
     id: 3,
-    color: "from-violet-300 to-purple-300",
     title: "PROJETO RUSTY BARGAIN",
     desc: "O objetivo do projeto Rusty Bargain é desenvolver um modelo de aprendizado de máquina para determinar o valor de mercado de carros usados, como parte do desenvolvimento de um aplicativo para oferecer aos usuários uma maneira rápida e precisa de avaliar o preço de seus veículos.",
     img: "/bargain.png",
     link: "https://github.com/sanchopedro/rusty-bargain",
+    tech: ["Python", "Machine Learning", "Scikit-learn", "Pandas"]
   },
   {
     id: 4,
-    color: "from-purple-300 to-red-300",
     title: "PROJETO TAXI CORRIDA MALUCA",
     desc: "O objetivo do projeto da empresa Taxi Corrida Maluca é aumentar a eficiência de seus serviços durante os horários de pico nos aeroportos, prevendo com precisão a quantidade de pedidos de táxi para a próxima hora. Isso ajudará a atrair mais motoristas durante os horários de maior demanda, melhorando o atendimento aos clientes.",
     img: "/taxi.png",
     link: "https://github.com/sanchopedro/taxi",
+    tech: ["Python", "Time Series", "Scikit-learn", "Pandas"]
   },
 ];
 
 const PortfolioPage = () => {
-  const ref = useRef();
-
-  const { scrollYProgress } = useScroll({ target: ref });
-  const x = useTransform(scrollYProgress, [0, 1], ["15%", "-100%"]);
-
   return (
-    <div className="">
+    <div className="h-full overflow-x-hidden lg:flex">
       <motion.div
-        className="h-full"
+        className="p-8"
         initial={{ y: "-200vh" }}
         animate={{ y: "0%" }}
         transition={{ duration: 1 }}
       >
-        <div className="h-[600vh] relative " ref={ref}>
-          <div className="w-screen h-[calc(100vh-6rem)] flex items-center justify-center text-8xl text-center ">
-            My Works
-          </div>
-          <div className="sticky top-0 flex h-screen gap-4 items-center overflow-x-hidden">
-            <motion.div style={{ x }} className="flex ">
-              <div className="h-screen w-screen flex items-center justify-center bg-gradient-to-r from-purple-300 to-red-300" />
-              {items.map((item) => (
-                <div
-                  className={`h-screen w-screen flex items-center justify-center bg-gradient-to-r ${item.color}`}
-                  key={item.id}
-                >
-                  <div className="flex flex-col gap-8  justify-center items-center">
-                    <h1 className="text-xl font-bold md:text-xl lg:text-2xl xl:text-6xl text-white">
-                      {item.title}
-                    </h1>
-                    <div className="relative w-80 h-56 md:w-96 md:h-64 lg:w-[400px] lg:h-[280px] xl:w-[550px] xl:h-[385px]">
-                      <Image src={item.img} alt="" fill />
-                    </div>
-                    <p className="w-80 md:w96 lg:w-[600px] lg:text-lg xl:w-[700px] text-black text-justify">
-                      {item.desc}
-                    </p>
-                    <Link
-                      href={item.link}
-                      className="flex justify-center  text-white hover:text-gray-600"
-                      target="_blank"
-                    >
-                      <button className="md:text-md lg:p-4 lg:text-lg bg-black hover:bg-purple-200 rounded-full font-semibold p-2 flex items-center justify-center -mt-2">
-                        <EyeIcon class="h-6 w-6" />
-                        SEE PROJECT
-                      </button>
-                    </Link>
-                  </div>
+        <div className="text-center mb-12 mt-24">
+          <h1 className="text-4xl md:text-6xl font-bold">My Projects</h1>
+        </div>
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12 p-32">
+          {items.map((item) => (
+            <div
+              key={item.id}
+              className="relative bg-white rounded-lg shadow-lg transition-transform duration-75 max-w-md mx-auto group hover:shadow-xl"
+            >
+              <div className="relative h-48">
+                <Image
+                  src={item.img}
+                  alt={item.title}
+                  layout="fill"
+                  objectFit="cover"
+                  className="rounded-t-lg"
+                />
+              </div>
+              <div className="p-4">
+                <h1 className="text-xl font-bold md:text-xl lg:text-2xl text-gray-800 text-center">
+                  {item.title}
+                </h1>
+                <p className="text-gray-800 font-semibold mt-2 text-center">
+                  Tech: {item.tech.join(", ")}
+                </p>
+                <p className="text-gray-600 text-justify mt-4">
+                  {item.desc}
+                </p>
+                <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-70 flex items-center justify-center rounded-lg transition-opacity duration-100">
+                  <Link
+                    href={item.link}
+                    target="_blank"
+                    className="text-white text-lg font-semibold p-4 bg-black bg-opacity-80 rounded-full flex items-center justify-center opacity-0 group-hover:opacity-100 transition-opacity duration-100"
+                  >
+                    <EyeIcon className="h-6 w-6 mr-2" />
+                    SEE PROJECT
+                  </Link>
                 </div>
-              ))}
-            </motion.div>
-          </div>
+              </div>
+            </div>
+          ))}
         </div>
         <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
-          <h1 className="text-8xl">Do you have a project?</h1>
+          <h1 className="text-4xl md:text-6xl">Do you have a project?</h1>
           <div className="relative">
             <motion.svg
               animate={{ rotate: 360 }}
               transition={{ duration: 8, ease: "linear", repeat: Infinity }}
               viewBox="0 0 300 300"
-              className="w-64 h-64 md:w-[500px] md:h-[500px] "
+              className="w-64 h-64 md:w-[500px] md:h-[500px]"
             >
               <defs>
                 <path
@@ -124,7 +122,7 @@ const PortfolioPage = () => {
           </div>
         </div>
       </motion.div>
-      <ScrollToTopButton />
+
     </div>
   );
 };
