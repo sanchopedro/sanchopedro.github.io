@@ -50,10 +50,10 @@ const PortfolioPage = () => {
         animate={{ y: "0%" }}
         transition={{ duration: 1 }}
       >
-        <div className="text-center mb-12 mt-24">
+        <div className="text-center mb-8 mt-24">
           <h1 className="text-4xl md:text-6xl font-bold">My Projects</h1>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-12 p-32">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4 p-32">
           {items.map((item) => (
             <div
               key={item.id}
