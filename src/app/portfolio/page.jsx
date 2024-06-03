@@ -11,7 +11,7 @@ const items = [
     id: 1,
     title: "PROJETO IMDB REVIEWS",
     desc: "O projeto busca criar um sistema para filtrar e categorizar resenhas de filmes clássicos, priorizando a identificação automática de resenhas negativas. A empresa está lançando uma nova comunidade para entusiastas de filmes clássicos, com o intuito de fornecer uma plataforma onde os membros possam encontrar resenhas confiáveis e relevantes facilmente. O objetivo é treinar um modelo capaz de classificar as resenhas como positivas ou negativas, com a meta de alcançar um valor F1 de pelo menos 0,85.",
-    img: "/film.png",
+    img: "/projects/film.png",
     link: "https://github.com/sanchopedro/imdb-reviews",
     tech: ["Python", "NLP", "Scikit-learn", "Pandas"]
   },
@@ -19,7 +19,7 @@ const items = [
     id: 2,
     title: "PROJETO OILY GIANT",
     desc: "O principal objetivo deste projeto é identificar a região mais lucrativa para a perfuração de novos poços de petróleo, mantendo o risco de prejuízo abaixo de 2,5%. Com dados de exploração geológica para três regiões distintas será preciso usar modelos de regressão linear para prever o volume de reservas em cada poço. Com essas previsões, será possível selecionar as melhores oportunidades para maximizar o lucro total.",
-    img: "/oil.png",
+    img: "/projects/oil.png",
     link: "https://github.com/sanchopedro/oily-giant",
     tech: ["Python", "Regression", "Scikit-learn", "Pandas"]
   },
@@ -27,7 +27,7 @@ const items = [
     id: 3,
     title: "PROJETO RUSTY BARGAIN",
     desc: "O objetivo do projeto Rusty Bargain é desenvolver um modelo de aprendizado de máquina para determinar o valor de mercado de carros usados, como parte do desenvolvimento de um aplicativo para oferecer aos usuários uma maneira rápida e precisa de avaliar o preço de seus veículos.",
-    img: "/bargain.png",
+    img: "/projects/bargain.png",
     link: "https://github.com/sanchopedro/rusty-bargain",
     tech: ["Python", "Machine Learning", "Scikit-learn", "Pandas"]
   },
@@ -35,7 +35,7 @@ const items = [
     id: 4,
     title: "PROJETO TAXI CORRIDA MALUCA",
     desc: "O objetivo do projeto da empresa Taxi Corrida Maluca é aumentar a eficiência de seus serviços durante os horários de pico nos aeroportos, prevendo com precisão a quantidade de pedidos de táxi para a próxima hora. Isso ajudará a atrair mais motoristas durante os horários de maior demanda, melhorando o atendimento aos clientes.",
-    img: "/taxi.png",
+    img: "/projects/taxi.png",
     link: "https://github.com/sanchopedro/taxi",
     tech: ["Python", "Time Series", "Scikit-learn", "Pandas"]
   },
