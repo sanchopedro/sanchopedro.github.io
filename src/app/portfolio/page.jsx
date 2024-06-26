@@ -21,7 +21,7 @@ const items = [
     desc: "O principal objetivo deste projeto é identificar a região mais lucrativa para a perfuração de novos poços de petróleo, mantendo o risco de prejuízo abaixo de 2,5%. Com dados de exploração geológica para três regiões distintas será preciso usar modelos de regressão linear para prever o volume de reservas em cada poço. Com essas previsões, será possível selecionar as melhores oportunidades para maximizar o lucro total.",
     img: "/projects/oil.png",
     link: "https://github.com/sanchopedro/oily-giant",
-    tech: ["Python", "Regression", "Scikit-learn", "Pandas"]
+    tech: ["Python", "Machine Learning", "Scikit-learn", "Pandas"]
   },
   {
     id: 3,
@@ -50,10 +50,10 @@ const PortfolioPage = () => {
         animate={{ y: "0%" }}
         transition={{ duration: 1 }}
       >
-        <div className="text-center mb-8 mt-24">
+        <div className="text-center mb-8 mt-0 lg:mt-12">
           <h1 className="text-4xl md:text-6xl font-bold">My Projects</h1>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4 p-32">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4 p-4 sm:p-8">
           {items.map((item) => (
             <div
               key={item.id}
@@ -75,7 +75,7 @@ const PortfolioPage = () => {
                 <p className="text-gray-800 font-semibold mt-2 text-center">
                   Tech: {item.tech.join(", ")}
                 </p>
-                <p className="text-gray-600 text-justify mt-4">
+                <p className="text-gray-600 text-justify leading-normal tracking-normal mt-4">
                   {item.desc}
                 </p>
                 <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-70 flex items-center justify-center rounded-lg transition-opacity duration-100">
@@ -92,9 +92,9 @@ const PortfolioPage = () => {
             </div>
           ))}
         </div>
-        <div className="w-screen h-screen flex flex-col gap-16 items-center justify-center text-center">
+        <div className="w-full flex flex-col items-center justify-center text-center mt-16">
           <h1 className="text-4xl md:text-6xl">Do you have a project?</h1>
-          <div className="relative">
+          <div className="relative mt-8">
             <motion.svg
               animate={{ rotate: 360 }}
               transition={{ duration: 8, ease: "linear", repeat: Infinity }}
@@ -122,7 +122,6 @@ const PortfolioPage = () => {
           </div>
         </div>
       </motion.div>
-
     </div>
   );
 };
