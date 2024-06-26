@@ -8,6 +8,7 @@ import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 function ContactPage() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
+  const [emailValue, setEmailValue] = useState(""); // Estado para armazenar o valor do email
 
   const text = "Say Hello";
 
@@ -36,6 +37,11 @@ function ContactPage() {
       );
   };
 
+  // Manipulador de evento para atualizar o estado do email
+  const handleEmailChange = (e) => {
+    setEmailValue(e.target.value.toLowerCase()); // Converte para minúsculas
+  };
+
   return (
     <motion.div
       className="h-full"
@@ -48,25 +54,27 @@ function ContactPage() {
         <div className="h-1/2 lg:h-full lg:w-1/2 flex items-center justify-center text-4xl md:text-6xl">
           <div className="flex flex-col gap-8">
             <div className="text-center">
-            {text.split("").map((letter, index) => (
-              <motion.span
-                key={index}
-                initial={{ opacity: 1 }}
-                animate={{ opacity: 0 }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  delay: index * 0.1,
-                }}
-              >
-                {letter}
-              </motion.span>
-            ))}
-            😊
-
+              {text.split("").map((letter, index) => (
+                <motion.span
+                  key={index}
+                  initial={{ opacity: 1 }}
+                  animate={{ opacity: 0 }}
+                  transition={{
+                    duration: 3,
+                    repeat: Infinity,
+                    delay: index * 0.1,
+                  }}
+                >
+                  {letter}
+                </motion.span>
+              ))}
+              😊
             </div>
             <div className=" text-sm md:text-xl text-center mb-4 lg:mb-0">
-            <p>Se você tem alguma sugestão, projeto ou mesmo deseja dizer Olá... Preencha o formulário e responderei em breve.</p>
+              <p>
+                Se você tem alguma sugestão, projeto ou mesmo deseja dizer
+                Olá... Preencha o formulário e responderei em breve.
+              </p>
             </div>
           </div>
         </div>
@@ -86,14 +94,15 @@ function ContactPage() {
           <span>O meu email é:</span>
           <input
             type="text"
+            value={emailValue} // Utiliza o estado do email
+            onChange={handleEmailChange} // Manipulador de evento para atualizar o estado
             className="bg-transparent border-b-2 border-b-black outline-none "
             name="user_email"
             placeholder="exemplo@email.com"
           />
           <span>Melhores cumprimentos!</span>
           <button className="bg-purple-200 rounded font-semibold text-gray-600 p-4 flex items-center justify-center gap-2">
-          <PaperAirplaneIcon className="h-6 w-6 text-gray-500" />
-
+            <PaperAirplaneIcon className="h-6 w-6 text-gray-500" />
             Send
           </button>
           {success && (
