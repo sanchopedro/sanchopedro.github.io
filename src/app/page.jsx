@@ -14,10 +14,16 @@ const Homepage = () => {
       <div className="h-full flex flex-col lg:flex-row px-4 sm:px-8 md:px-12 lg:px-20 xl:px-48">
         {/* IMAGE CONTAINER */}
         <div className="h-1/2 lg:h-full lg:w-1/2 relative">
-          <Image src="/perfil.png" alt="" fill className="object-contain" />
+          <Image
+            src="/perfil.png"
+            alt=""
+            layout="fill"
+            objectFit="contain"
+            className="object-center object-cover"
+          />
         </div>
         {/* TEXT CONTAINER */}
-        <div className="h-1/2 lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center text-center">
+        <div className="h-full lg:h-full lg:w-1/2 flex flex-col gap-8 items-center justify-center text-center px-4 sm:px-0">
           {/* TITLE */}
           <h1 className="text-4xl lg:text-6xl font-bold">
             Olá, eu sou o Pedro Sancho!
@@ -31,7 +37,7 @@ const Homepage = () => {
             projetos futuros. Bem-vindo ao meu universo de dados!
           </p>
           {/* BUTTONS */}
-          <div className="w-full flex flex-col sm:flex-row gap-4 items-center justify-center">
+          <div className="w-full flex flex-col sm:flex-row gap-4 items-center justify-center mt-4">
             <Link href="/portfolio">
               <button className="p-4 rounded-lg ring-1 ring-black bg-black text-white">
                 View My Work
