@@ -39,6 +39,14 @@ const items = [
     link: "https://github.com/sanchopedro/taxi",
     tech: ["Python", "Time Series", "Scikit-learn", "Pandas"]
   },
+  {
+    id: 5,
+    title: "PROJETO INTERCONNECT TELECOM",
+    desc: "O objetivo principal do projeto é desenvolver um modelo de machine learning que possa prever com precisão se um cliente irá cancelar seu contrato (rotatividade). Para isso, serão utilizados dados históricos de clientes, incluindo informações pessoais, dados sobre os serviços contratados e detalhes contratuais.",
+    img: "/projects/telecom.png",
+    link: "https://github.com/sanchopedro/interconect-telecom",
+    tech: ["Python", "LightGBM", "Scikit-learn", "Pandas"]
+  },
 ];
 
 const PortfolioPage = () => {
