@@ -6,77 +6,13 @@ import { motion, useInView, useScroll } from "framer-motion";
 import Image from "next/image";
 import { InboxArrowDownIcon } from "@heroicons/react/24/outline";
 import Brain from "@/components/Brain";
-
-const skills = [
-  { name: "Pacote Office", percentage: 100 },
-  { name: "Python", percentage: 80 },
-  { name: "Visualização", percentage: 70 },
-  { name: "Scikit-Learn", percentage: 70 },
-  { name: "SQL", percentage: 65 },
-  { name: "GIT/ GitHub", percentage: 65 },
-  { name: "Full Stack Web Development", percentage: 60 },
-  { name: "Dashboard", percentage: 50 },
-];
+import jobExperience from "../../data/jobExperience.json";
+import skills from "../../data/skills.json";
+import educationExperience from "../../data/educationExperience.json";
 
 const half = Math.ceil(skills.length / 2);
 const skillsColumn1 = skills.slice(0, half);
 const skillsColumn2 = skills.slice(half);
-
-const jobExperience = [
-  {
-    date: "01/2020 - Presente",
-    companyPosition: "Gerente Financeiro",
-    companyName: "GEO4MÓDULO",
-    description:
-      "Como gestor financeiro, cuido do controle financeiro, garantindo transações precisas e conformidade. Gerencio a folha de pagamentos para assegurar o pagamento pontual e preciso dos colaboradores, além de administrar impostos e benefícios. Além disso, analiso o mercado imobiliário em Portugal para identificar oportunidades de investimento e minimizar riscos.",
-    country: "Portugal",
-  },
-  {
-    date: "03/2022 - 04/2023",
-    companyPosition: "Innovation Delivery",
-    companyName: "EDP",
-    description:
-      "Fiz parte no desenvolvimento e criação de projetos focados em modelos de negócios inovadores para a transição energética. Minha função envolveu a busca por soluções inovadoras, promovendo a sustentabilidade e eficiência energética. Também elaborei relatórios periódicos para acompanhar o progresso dos projetos e informar stakeholders sobre os resultados alcançados.",
-    country: "Portugal",
-  },
-  {
-    date: "01/2019 – 08/2019",
-    companyPosition: "Agente Autônomo de Investimentos",
-    companyName: "PG INVEST",
-    description:
-      "Gerenciei o controle financeiro e administrativo, cuidando do controle bancário e folhas de pagamento. Também analisei carteiras de investimentos para fornecer recomendações personalizadas aos clientes.",
-    country: "Brasil",
-  },
-];
-
-const educationExperience = [
-  {
-    date: "10/2023 - 06/2024",
-    name: "Bootcamp Data Science",
-    schoolName: "TripleTen School of Data Science",
-    description:
-      "O programa Data Science da TripleTen é um curso de nove meses em ciência de dados com ênfase em análise. Abrange Python, SQL, métodos e aplicativos de análise de dados padrão, análise de negócios, habilidades sociais e muito mais, e envolve a conclusão de 14 projetos com base em dados do mundo real.",
-  },
-  {
-    date: "03/2023 – 07/2023",
-    name: "Full Stack Web Development",
-    schoolName: "EDIT",
-    description:
-      "O curso de Full Stack Web Development da EDIT, com duração total de quatro meses, forneceu uma visão abrangente do desenvolvimento web. Ele cobriu fundamentos da web, Git/GitHub para controle de versão, além de tecnologias front-end como HTML, CSS, JavaScript, React e TypeScript. O programa também abordou conceitos de back-end para criar aplicações web completas.",
-  },
-  {
-    date: "09/2018 – 06/2020",
-    name: "Mestrado Internacional em Finanças",
-    schoolName: "Nova School of Business and Economics (Portugal)",
-    description: "",
-  },
-  {
-    date: "02/2014 – 12/2017",
-    name: "Bacharelado em Economia",
-    schoolName: "IBMEC-RJ (Brasil)",
-    description: "",
-  },
-];
 
 function AboutPage() {
   const containerRef = useRef();
