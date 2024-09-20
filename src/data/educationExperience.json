@@ -1,0 +1,33 @@
+[
+    {
+      "date": "10/2023 - 06/2024",
+      "name": "Bootcamp Data Science",
+      "schoolName": "TripleTen School of Data Science",
+      "description": "O programa Data Science da TripleTen é um curso de nove meses em ciência de dados com ênfase em análise. Abrange Python, SQL, métodos e aplicativos de análise de dados padrão, análise de negócios, habilidades sociais e muito mais, e envolve a conclusão de 14 projetos com base em dados do mundo real."
+    },
+    {
+      "date": "03/2023 – 07/2023",
+      "name": "Full Stack Web Development",
+      "schoolName": "EDIT",
+      "description": "O curso de Full Stack Web Development da EDIT, com duração total de quatro meses, forneceu uma visão abrangente do desenvolvimento web. Ele cobriu fundamentos da web, Git/GitHub para controle de versão, além de tecnologias front-end como HTML, CSS, JavaScript, React e TypeScript. O programa também abordou conceitos de back-end para criar aplicações web completas."
+    },
+    {
+      "date": "03/2022 – 07/2022",
+      "name": "Data Science and Business Analytics",
+      "schoolName": "EDIT",
+      "description": "O curso de Data Science da EDIT, com duração total de quatro meses, abordou tópicos essenciais para ciência de dados. Ele começou com fundamentos de data science e banco de dados, incluindo tecnologias de Big Data para gerenciar grandes volumes de dados. Em seguida, o curso explorou business analytics e visualização de dados para transformar dados em insights visuais, além de análise exploratória de dados e modelagem estatística. A parte final concentrou-se em machine learning e deep learning, preparando os alunos para construir e treinar modelos inteligentes para aplicações práticas."
+    },
+    {
+      "date": "09/2018 – 06/2020",
+      "name": "Mestrado Internacional em Finanças",
+      "schoolName": "Nova School of Business and Economics (Portugal)",
+      "description": ""
+    },
+    {
+      "date": "02/2014 – 12/2017",
+      "name": "Bacharelado em Economia",
+      "schoolName": "IBMEC-RJ (Brasil)",
+      "description": ""
+    }
+  ]
+  
