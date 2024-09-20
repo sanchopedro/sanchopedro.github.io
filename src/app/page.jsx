@@ -17,8 +17,8 @@ const Homepage = () => {
           <Image
             src="/perfil.png"
             alt=""
-            layout="fill"
-            objectFit="contain"
+            fill="fill"
+            style={{ objectFit: "contain" }}
             className="object-center object-cover"
           />
         </div>
