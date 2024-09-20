@@ -108,7 +108,7 @@ function AboutPage() {
             {/* BIOGRAPHY IMAGE */}
             <div className="flex justify-center itens-center">
               <Image
-                src="/perfil2.png"
+                src="images/perfil/perfil2.png"
                 alt=""
                 width={248}
                 height={248}
@@ -165,7 +165,7 @@ function AboutPage() {
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end -mt-12">
-              <img
+              <Image
                 src="/images/signature/signature.svg"
                 alt="Signature"
                 width={416}

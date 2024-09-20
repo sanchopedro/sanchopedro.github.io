@@ -84,7 +84,7 @@ function Navbar() {
           className="text-sm bg-black rounded-md p-1 font-semibold flex items-center justify-center"
         >
           <Link href="/">
-            <img
+            <Image
               src="/images/logo/logo_white.svg"
               alt="site logo"
               width={216}
@@ -96,12 +96,12 @@ function Navbar() {
       {/* SOCIAL LINKS */}
       <div className="hidden md:flex gap-4 w-1/3 md:justify-center">
         <Link href="https://github.com/sanchopedro" target="_blank">
-          <img src="/images/social/github.png" alt="github logo" width={24} height={24} />
+          <Image src="/images/social/github.png" alt="github logo" width={24} height={24} />
 
         </Link>
         <Link href="https://www.instagram.com/sanchopedro/" target="_blank">
           <Image
-            src="/instagram.png"
+            src="/images/social/instagram.png"
             alt="instagram logo"
             width={24}
             height={24}
@@ -112,7 +112,7 @@ function Navbar() {
           target="_blank"
         >
           <Image
-            src="/linkedin.png"
+            src="/images/social/linkedin.png"
             alt="linkedin logo"
             width={24}
             height={24}
