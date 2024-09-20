@@ -165,8 +165,8 @@ function AboutPage() {
             </span>
             {/* BIOGRAPHY SIGN SVG*/}
             <div className="self-end -mt-12">
-              <Image
-                src="/images/signature.svg"
+              <img
+                src="/images/signature/signature.svg"
                 alt="Signature"
                 width={416}
                 height={110}
