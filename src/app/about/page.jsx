@@ -55,44 +55,40 @@ function AboutPage() {
             <h1 className="font-bold text-2xl">BIOGRAPHY</h1>
             {/* BIOGRAPHY DESCRIPTION */}
             <p className="text-lg text-justify">
-              Sou um profissional de finanças com uma sólida base em controle
-              financeiro, gestão de folha de pagamento e análise de
-              investimentos. Minha formação acadêmica inclui um Mestrado
+              Sou Pedro Sancho Rodrigues, profissional de Finanças com uma
+              trajetória sólida em análise financeira, controle orçamentário e
+              gestão de investimentos. Minha formação inclui um Mestrado
               Internacional em Finanças pela Nova School of Business and
-              Economics, em Portugal, e um Bacharelado em Economia pelo
-              IBMEC-RJ, no Brasil. Minha experiência profissional abrange
-              diversas funções no setor financeiro e investimentos, mas também
-              estou explorando novas fronteiras na área de ciência de dados e
-              programação.
+              Economics e um Bacharelado em Economia pelo IBMEC-RJ. Atualmente,
+              estou expandindo minha expertise ao cursar um MBA em Data Science
+              and Business Analytics pela USP Esalq, além de possuir
+              certificações em Scrum, Data Science e Desenvolvimento Web.
             </p>
             <p className="text-lg text-justify">
-              Durante minha carreira, tive a oportunidade de trabalhar em
-              diferentes empresas e em projetos desafiadores, desde gerenciar
-              transações financeiras até liderar iniciativas de inovação focadas
-              em modelos de negócios para a transição energética. Minhas
-              principais áreas de atuação incluíram controle financeiro, gestão
-              de folha de pagamento e análise de oportunidades de investimento,
-              sempre buscando fornecer insights estratégicos e promover a
-              eficiência.
+              Ao longo da minha carreira, atuei em diversas funções estratégicas
+              no setor financeiro, desde análise de investimentos e precificação
+              até a gestão de ativos e passivos. Além do meu background
+              financeiro, minha curiosidade por tecnologia e dados me levou a
+              explorar o campo da ciência de dados e desenvolvimento web,
+              agregando novas habilidades ao meu perfil analítico.
             </p>
             <p className="text-lg text-justify">
-              Recentemente, minha curiosidade por tecnologia e análise de dados
-              me levou a explorar novas habilidades no campo de ciência de dados
-              e desenvolvimento web. Concluí cursos em Data Science pela
-              TripleTen School e pela EDIT, bem como um curso de Full Stack Web
-              Development, onde aprendi a usar ferramentas como Python, SQL,
-              HTML, CSS, JavaScript, React, e outras tecnologias. Tenho também
-              experiência com ferramentas de visualização como PowerBi e
-              Tableau, bem como bibliotecas como Seaborn e Matplotlib.
+              Possuo experiência com ferramentas como Python, SQL, Excel
+              Avançado, Power BI e Tableau, além de bibliotecas de visualização
+              como Seaborn e Matplotlib. Também aprofundei meus conhecimentos em
+              machine learning e desenvolvimento web, utilizando tecnologias
+              como HTML, CSS, JavaScript e React para criar soluções inovadoras.
             </p>
             <p className="text-lg text-justify">
-              Busco oportunidades onde eu possa aplicar minhas habilidades
-              financeiras e analíticas no contexto da ciência de dados. Sou
-              apaixonado por resolver problemas complexos e estou sempre
-              aprendendo novas técnicas e tecnologias para aprimorar minha
-              prática. Se você está interessado em projetos de análise de dados,
-              programação ou finanças, sinta-se à vontade para me seguir e
-              acompanhar meus projetos!
+              Sou apaixonado por resolver problemas complexos e transformar
+              dados em insights estratégicos. Meu objetivo é atuar na interseção
+              entre finanças, tecnologia e análise de dados, desenvolvendo
+              soluções inteligentes e orientadas a resultados.
+            </p>
+            <p className="text-lg text-justify">
+              Se você tem interesse em projetos de análise de dados, programação
+              ou finanças, sinta-se à vontade para me acompanhar e trocar
+              ideias!
             </p>
             {/* BIOGRAPHY QUOTE */}
             <span className="italic self-end">
