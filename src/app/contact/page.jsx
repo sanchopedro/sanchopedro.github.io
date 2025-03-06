@@ -4,7 +4,6 @@ import { motion } from "framer-motion";
 import emailjs from "@emailjs/browser";
 import { PaperAirplaneIcon } from "@heroicons/react/24/outline";
 
-
 function ContactPage() {
   const [success, setSuccess] = useState(false);
   const [error, setError] = useState(false);
