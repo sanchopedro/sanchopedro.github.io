@@ -1,11 +1,13 @@
 [
     { "name": "Pacote Office", "percentage": 100 },
-    { "name": "Python", "percentage": 80 },
-    { "name": "Visualização", "percentage": 70 },
-    { "name": "Scikit-Learn", "percentage": 70 },
-    { "name": "SQL", "percentage": 65 },
-    { "name": "GIT/ GitHub", "percentage": 65 },
-    { "name": "Full Stack Web Development", "percentage": 60 },
-    { "name": "Dashboard", "percentage": 50 }
+    { "name": "Python", "percentage": 90 },
+    { "name": "Machine Learning", "percentage": 90 },
+    { "name": "Deep Learning", "percentage": 80 },
+    { "name": "Power BI", "percentage": 80 }
+    { "name": "SQL", "percentage": 80 },
+    { "name": "GIT/ GitHub", "percentage": 80 },
+    { "name": "Visualização", "percentage": 80 },
+    { "name": "Full Stack Web Development", "percentage": 70 },
+    { "name": "Scrum", "percentage": 70 }
   ]
   
