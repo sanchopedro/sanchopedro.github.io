@@ -46,6 +46,14 @@
       "img": "/projects/london.png",
       "link": "https://github.com/sanchopedro/bike-rides",
       "tech": ["Python", "EDA", "Dashboard", "Tableau"]
+    },
+    {
+      "id": 7,
+      "title": "PROJETO STOCK PRICE PREDICTION",
+      "desc": "Stock Price Predict é um projeto que utiliza Machine Learning para prever os preços das ações do IBOVESPA com base em dados históricos. Ele combina um back-end em FastAPI, uma interface interativa em Streamlit e modelos treinados para fornecer previsões diárias.",
+      "img": "/projects/stock.png",
+      "link": "https://github.com/sanchopedro/stock-price-predict",
+      "tech": ["Python", "API", "Deep Learnng", "Streamlit"]
     }
   ]
   
