@@ -58,7 +58,7 @@
   {
     "id": 8,
     "title": "ANÁLISE DE CHURN - TELECOM ÍNDIA",
-    "desc": "como objetivo prever a rotatividade de clientes (churn) no setor de telecomunicações indiano. Utilizando técnicas de ciência de dados e aprendizado de máquina, o projeto busca identificar padrões de comportamento que indicam a probabilidade de um cliente cancelar os serviços oferecidos pela empresa.",
+    "desc": "O Projeto tem como objetivo prever a rotatividade de clientes (churn) no setor de telecomunicações indiano. Utilizando técnicas de ciência de dados e aprendizado de máquina, o projeto busca identificar padrões de comportamento que indicam a probabilidade de um cliente cancelar os serviços oferecidos pela empresa.",
     "img": "projects/telecom-india.png",
     "link": "https://github.com/sanchopedro/india-churn-analysis",
     "tech": ["Python", "PowerBI", "Scikit-learn", "SQL"]
