@@ -21,7 +21,7 @@ const PortfolioPage = () => {
           <h1 className="text-4xl md:text-6xl font-bold">My Projects</h1>
         </div>
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 mt-4 p-4 sm:p-8">
-          {items.map((item) => (
+          {[...items].sort((a, b) => b.id - a.id).map((item) => (
             <div
               key={item.id}
               className="relative bg-white rounded-lg shadow-lg transition-transform duration-75 max-w-md mx-auto group hover:shadow-xl"
