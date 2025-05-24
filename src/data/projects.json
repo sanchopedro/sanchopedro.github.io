@@ -1,59 +1,66 @@
 [
-    {
-      "id": 1,
-      "title": "PROJETO IMDB REVIEWS",
-      "desc": "O projeto busca criar um sistema para filtrar e categorizar resenhas de filmes clássicos, priorizando a identificação automática de resenhas negativas. A empresa está lançando uma nova comunidade para entusiastas de filmes clássicos, com o intuito de fornecer uma plataforma onde os membros possam encontrar resenhas confiáveis e relevantes facilmente. O objetivo é treinar um modelo capaz de classificar as resenhas como positivas ou negativas, com a meta de alcançar um valor F1 de pelo menos 0,85.",
-      "img": "/projects/film.png",
-      "link": "https://github.com/sanchopedro/imdb-reviews",
-      "tech": ["Python", "NLP", "Scikit-learn", "Pandas"]
-    },
-    {
-      "id": 2,
-      "title": "PROJETO OILY GIANT",
-      "desc": "O principal objetivo deste projeto é identificar a região mais lucrativa para a perfuração de novos poços de petróleo, mantendo o risco de prejuízo abaixo de 2,5%. Com dados de exploração geológica para três regiões distintas será preciso usar modelos de regressão linear para prever o volume de reservas em cada poço. Com essas previsões, será possível selecionar as melhores oportunidades para maximizar o lucro total.",
-      "img": "/projects/oil.png",
-      "link": "https://github.com/sanchopedro/oily-giant",
-      "tech": ["Python", "Machine Learning", "Scikit-learn", "Pandas"]
-    },
-    {
-      "id": 3,
-      "title": "PROJETO RUSTY BARGAIN",
-      "desc": "O objetivo do projeto Rusty Bargain é desenvolver um modelo de aprendizado de máquina para determinar o valor de mercado de carros usados, como parte do desenvolvimento de um aplicativo para oferecer aos usuários uma maneira rápida e precisa de avaliar o preço de seus veículos.",
-      "img": "/projects/bargain.png",
-      "link": "https://github.com/sanchopedro/rusty-bargain",
-      "tech": ["Python", "Machine Learning", "Scikit-learn", "Pandas"]
-    },
-    {
-      "id": 4,
-      "title": "PROJETO TAXI CORRIDA MALUCA",
-      "desc": "O objetivo do projeto da empresa Taxi Corrida Maluca é aumentar a eficiência de seus serviços durante os horários de pico nos aeroportos, prevendo com precisão a quantidade de pedidos de táxi para a próxima hora. Isso ajudará a atrair mais motoristas durante os horários de maior demanda, melhorando o atendimento aos clientes.",
-      "img": "/projects/taxi.png",
-      "link": "https://github.com/sanchopedro/taxi",
-      "tech": ["Python", "Time Series", "Scikit-learn", "Pandas"]
-    },
-    {
-      "id": 5,
-      "title": "PROJETO INTERCONNECT TELECOM",
-      "desc": "O objetivo principal do projeto é desenvolver um modelo de machine learning que possa prever com precisão se um cliente irá cancelar seu contrato (rotatividade). Para isso, serão utilizados dados históricos de clientes, incluindo informações pessoais, dados sobre os serviços contratados e detalhes contratuais.",
-      "img": "/projects/telecom.png",
-      "link": "https://github.com/sanchopedro/interconect-telecom",
-      "tech": ["Python", "LightGBM", "Scikit-learn", "Pandas"]
-    },
-    {
-      "id": 6,
-      "title": "PROJETO LONDON BIKE SHARING",
-      "desc": "O projeto analisa dados de compartilhamento de bicicletas em Londres. O conjunto de dados mostra a quantidade de bicicletas alugadas a cada hora e parâmetros relacionados, como temperatura, umidade e velocidade do vento.",
-      "img": "/projects/london.png",
-      "link": "https://github.com/sanchopedro/bike-rides",
-      "tech": ["Python", "EDA", "Dashboard", "Tableau"]
-    },
-    {
-      "id": 7,
-      "title": "PROJETO STOCK PRICE PREDICTION",
-      "desc": "Stock Price Predict é um projeto que utiliza Machine Learning para prever os preços das ações do IBOVESPA com base em dados históricos. Ele combina um back-end em FastAPI, uma interface interativa em Streamlit e modelos treinados para fornecer previsões diárias.",
-      "img": "/projects/stock.png",
-      "link": "https://github.com/sanchopedro/stock-price-predict",
-      "tech": ["Python", "API", "Deep Learnng", "Streamlit"]
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "PROJETO IMDB REVIEWS",
+    "desc": "O projeto busca criar um sistema para filtrar e categorizar resenhas de filmes clássicos, priorizando a identificação automática de resenhas negativas. A empresa está lançando uma nova comunidade para entusiastas de filmes clássicos, com o intuito de fornecer uma plataforma onde os membros possam encontrar resenhas confiáveis e relevantes facilmente. O objetivo é treinar um modelo capaz de classificar as resenhas como positivas ou negativas, com a meta de alcançar um valor F1 de pelo menos 0,85.",
+    "img": "/projects/film.png",
+    "link": "https://github.com/sanchopedro/imdb-reviews",
+    "tech": ["Python", "NLP", "Scikit-learn", "Pandas"]
+  },
+  {
+    "id": 2,
+    "title": "PROJETO OILY GIANT",
+    "desc": "O principal objetivo deste projeto é identificar a região mais lucrativa para a perfuração de novos poços de petróleo, mantendo o risco de prejuízo abaixo de 2,5%. Com dados de exploração geológica para três regiões distintas será preciso usar modelos de regressão linear para prever o volume de reservas em cada poço. Com essas previsões, será possível selecionar as melhores oportunidades para maximizar o lucro total.",
+    "img": "/projects/oil.png",
+    "link": "https://github.com/sanchopedro/oily-giant",
+    "tech": ["Python", "Machine Learning", "Scikit-learn", "Pandas"]
+  },
+  {
+    "id": 3,
+    "title": "PROJETO RUSTY BARGAIN",
+    "desc": "O objetivo do projeto Rusty Bargain é desenvolver um modelo de aprendizado de máquina para determinar o valor de mercado de carros usados, como parte do desenvolvimento de um aplicativo para oferecer aos usuários uma maneira rápida e precisa de avaliar o preço de seus veículos.",
+    "img": "/projects/bargain.png",
+    "link": "https://github.com/sanchopedro/rusty-bargain",
+    "tech": ["Python", "Machine Learning", "Scikit-learn", "Pandas"]
+  },
+  {
+    "id": 4,
+    "title": "PROJETO TAXI CORRIDA MALUCA",
+    "desc": "O objetivo do projeto da empresa Taxi Corrida Maluca é aumentar a eficiência de seus serviços durante os horários de pico nos aeroportos, prevendo com precisão a quantidade de pedidos de táxi para a próxima hora. Isso ajudará a atrair mais motoristas durante os horários de maior demanda, melhorando o atendimento aos clientes.",
+    "img": "/projects/taxi.png",
+    "link": "https://github.com/sanchopedro/taxi",
+    "tech": ["Python", "Time Series", "Scikit-learn", "Pandas"]
+  },
+  {
+    "id": 5,
+    "title": "PROJETO INTERCONNECT TELECOM",
+    "desc": "O objetivo principal do projeto é desenvolver um modelo de machine learning que possa prever com precisão se um cliente irá cancelar seu contrato (rotatividade). Para isso, serão utilizados dados históricos de clientes, incluindo informações pessoais, dados sobre os serviços contratados e detalhes contratuais.",
+    "img": "/projects/telecom.png",
+    "link": "https://github.com/sanchopedro/interconect-telecom",
+    "tech": ["Python", "LightGBM", "Scikit-learn", "Pandas"]
+  },
+  {
+    "id": 6,
+    "title": "PROJETO LONDON BIKE SHARING",
+    "desc": "O projeto analisa dados de compartilhamento de bicicletas em Londres. O conjunto de dados mostra a quantidade de bicicletas alugadas a cada hora e parâmetros relacionados, como temperatura, umidade e velocidade do vento.",
+    "img": "/projects/london.png",
+    "link": "https://github.com/sanchopedro/bike-rides",
+    "tech": ["Python", "EDA", "Dashboard", "Tableau"]
+  },
+  {
+    "id": 7,
+    "title": "PROJETO STOCK PRICE PREDICTION",
+    "desc": "Stock Price Predict é um projeto que utiliza Machine Learning para prever os preços das ações do IBOVESPA com base em dados históricos. Ele combina um back-end em FastAPI, uma interface interativa em Streamlit e modelos treinados para fornecer previsões diárias.",
+    "img": "/projects/stock.png",
+    "link": "https://github.com/sanchopedro/stock-price-predict",
+    "tech": ["Python", "API", "Deep Learnng", "Streamlit"]
+  },
+  {
+    "id": 8,
+    "title": "ANÁLISE DE CHURN - TELECOM ÍNDIA",
+    "desc": "como objetivo prever a rotatividade de clientes (churn) no setor de telecomunicações indiano. Utilizando técnicas de ciência de dados e aprendizado de máquina, o projeto busca identificar padrões de comportamento que indicam a probabilidade de um cliente cancelar os serviços oferecidos pela empresa.",
+    "img": "projects/telecom-india.png",
+    "link": "https://github.com/sanchopedro/india-churn-analysis",
+    "tech": ["Python", "PowerBI", "Scikit-learn", "SQL"]
+  }
+]
