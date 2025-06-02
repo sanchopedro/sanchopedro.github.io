@@ -8,6 +8,7 @@
     { "name": "GIT/ GitHub", "percentage": 80 },
     { "name": "Visualização", "percentage": 80 },
     { "name": "Full Stack Web Development", "percentage": 70 },
-    { "name": "Scrum", "percentage": 70 }
+    { "name": "Scrum", "percentage": 70 },
+    { "name": "Docker", "percentage": 50 }
   ]
   
